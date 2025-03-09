@@ -12,6 +12,18 @@
     --colorLight2: #F9F7F7;
 }
 
+html {
+    background: url('images/my-background.jpg') no-repeat center;
+    background-size: cover; /* Ensures the background covers the entire area */
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0; /* Removes default margin */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: adds a semi-transparent background color */
+}
+
 .wrapper{
     width:100vw;
     height:100vh;
